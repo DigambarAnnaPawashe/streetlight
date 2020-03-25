@@ -1,0 +1,168 @@
+@charset "ISO-8859-1";
+
+
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #FFF;
+}
+.register{
+ float:center;
+  margin-left:15px;
+  padding:20px 30px 20px 10px;
+  margin-top: 50px;
+}  
+ .register form{
+  width: 30%;
+  height: 500px;
+  float: center;
+  background:#222d32;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  margin-top: -55px;
+
+ }  
+ h3{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+ margin-right: 30px;
+}
+ 
+
+
+ .register input[type=text], input[type=password] {
+  width: 200px;
+  height:30px;
+  padding: 2px 2px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left:45px;
+  margin-top: 25px;
+} 
+
+.register input[type="checkbox"]
+{
+	margin-left: 140px;
+}
+
+b{
+ color: white;
+}
+
+select{
+	 width: 200px;
+  height:30px;
+  padding: 2px 2px;
+  height:30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    
+}
+ 
+.register button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  margin-top:10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height: 40px;
+  margin-left: 50px;
+  }
+
+.register button:hover {
+  opacity: 0.8;
+  
+}
+
+.register .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  margin-left: 20px;
+}
+
+
+.register span.psw {
+  float: right;
+ 
+}
+
+.register span.sign{
+  float: right;
+}
+
+Change styles for span and cancel button on extra small screens
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 30%;
+  height:180px;
+  font-weight: bold;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn{
+ 	margin-left: 1px;
+}
+.btn #ok{
+	width: 50px;
+}
+#cancel{
+	background:red;
+    color:white;
+  	
+}
+#cancel:hover cursor: pointer;
+}
+
+
